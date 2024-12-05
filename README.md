@@ -1,7 +1,3 @@
-# User-Management-System
-A dynamic user dashboard built with PHP, MySQL, and Bootstrap. Features include role-based dashboards, task and project analytics with Chart.js, profile updates, user management, and audit logging. Designed for responsive, efficient task tracking and project management with modular and reusable components.
-
-
 # User Management System
 
 A web-based User Management System designed for managing employees, tasks, projects, and activities within an organization. It includes features for user authentication, dynamic dashboards, and detailed views for various modules such as tasks and projects.
