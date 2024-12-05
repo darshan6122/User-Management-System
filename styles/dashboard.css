@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #e8eaf6);
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+
+.main-content {
+    /* margin-left: 250px; */
+    padding: 20px;
+    width: 100%;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+header p {
+    font-size: 16px;
+    color: #555;
+}
+
+.dashboard-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: linear-gradient(135deg, #42a5f5, #1e88e5);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.charts {
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.charts h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.chart-wrapper {
+    margin-bottom: 30px;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination a {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #8e24aa;
+    color: #fff;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.pagination a:hover {
+    background: #6a1b9a;
+}
+
+.pagination a.active {
+    background: #ab47bc;
+    pointer-events: none;
+}
